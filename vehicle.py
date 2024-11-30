@@ -4,7 +4,7 @@ import streamlit as st
 import time
 
 # Load Haar Cascade classifier from the specified path
-vehicle_cascade_path = r"C:\Users\COMD\Desktop\Chatbot\cars.xml"
+vehicle_cascade_path = cars.xml
 vehicle_cascade = cv2.CascadeClassifier(vehicle_cascade_path)
 
 # Check if classifier was loaded properly
